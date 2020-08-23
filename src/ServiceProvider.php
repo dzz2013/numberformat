@@ -1,6 +1,6 @@
 <?php
 
-namespace Kevin\NumberFormat;
+namespace Mycoco\NumberFormat;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

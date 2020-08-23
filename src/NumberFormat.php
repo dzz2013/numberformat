@@ -1,6 +1,6 @@
 <?php
 
-namespace Kevin\NumberFormat;
+namespace Mycoco\NumberFormat;
 
 /**
  * 数字格式化类

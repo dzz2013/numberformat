@@ -1,5 +1,5 @@
 {
-    "name": "kevin/numberformat",
+    "name": "mycoco/numberformat",
     "description": "这是一个学习 composer 的例子",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Kevin\\NumberFormat\\": "src/"
+            "Mycoco\\NumberFormat\\": "src/"
         }
     },
     "require": {
@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Kevin\\NumberFormat\\ServiceProvider"
+                "Mycoco\\NumberFormat\\ServiceProvider"
             ]
         }
     }

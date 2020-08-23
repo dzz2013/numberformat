@@ -6,7 +6,7 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use Kevin\NumberFormat\NumberFormat;
+use Mycoco\NumberFormat\NumberFormat;
 
 echo NumberFormat::byteFormat(302484321);
 
