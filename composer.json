@@ -1,0 +1,26 @@
+{
+    "name": "kevin/numberformat",
+    "description": "这是一个学习 composer 的例子",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kevin",
+            "email": "dzz2013@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kevin\\NumberFormat\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kevin\\NumberFormat\\ServiceProvider"
+            ]
+        }
+    }
+}
